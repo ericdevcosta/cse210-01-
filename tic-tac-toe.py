@@ -14,8 +14,12 @@ def main():
         display_board(board)
         game_turn(player, board)
         player = next_player(player)
-    display_board(board)
-    print("Good game. Thanks for playing!") 
+    if (has_winner(board)) == True:
+        display_board(board)
+        print("We have a winner! Thanks for playing!")
+    elif (is_a_draw(board)) == True:
+        display_board(board)
+        print("It's a draw. Thanks for playing!")
 
 # Define a function to create the board
 
