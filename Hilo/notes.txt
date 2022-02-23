@@ -1,0 +1,24 @@
+Designing the Hilo Game
+
+1. Find objects in the program:
+- Starting points (300)
+- Cards(1-13)
+- Player
+
+2. Define the responsibilities for each object:
+- Starting points will increase or decrease depending on player's actions.
+- Cards will randomly be displayed.
+- Player will choose if the next card to be displayed is higher or lower.
+
+3. Define the relationship between the objects.
+- The player chooses if the next card is higher or lower.
+- If he guesses it correcly, he earns 100 points.
+- If he guesses it incorrecly, he loses 75 points.
+- If the player loses all points, the game is over.
+- If the player still has points, he will be asked if he wants to continue or not.
+- The game ends if the player decides to quit.
+
+4. Translate the objects into classes:
+- Class Cards
+- current_card
+- 
